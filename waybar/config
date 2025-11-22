@@ -12,14 +12,20 @@
     ],
     "modules-right": [
     "hyprland/language",
-    "pulseaudio",
-    "cpu",
-    "battery",
-    "memory",
     "network",
+    "cpu",
+    "memory",
+    "battery",
+    "pulseaudio",
     "temperature",
+    "tray",
     "clock",
     ],
+    "custom/bluetooth": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "blueman-manager"
+},
     "hyprland/window": {
       "format": "{}",
       "max-length": 35,
